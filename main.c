@@ -13,4 +13,7 @@ int main()
   // copy string
   strcpy(str, "Hello World");
   printf("\n%s\n", str);
+
+  // if memory is not freed here, you'll get a memory leak
+  // free(arr);
 }
